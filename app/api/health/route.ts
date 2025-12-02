@@ -2,6 +2,9 @@ import { NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
 
 // Health check endpoint to verify deployment
+export const dynamic = 'force-dynamic' // Prevent static generation
+export const runtime = 'nodejs' // Ensure it runs on Node.js runtime
+
 export async function GET() {
   try {
     // Check environment variables
