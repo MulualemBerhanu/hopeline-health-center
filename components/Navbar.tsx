@@ -5,7 +5,15 @@ import { SignOutButton } from './SignOutButton'
 import { MobileMenu } from './MobileMenu'
 
 export async function Navbar() {
-  const session = await getServerSession(authOptions)
+  // Safely get session, handle database errors gracefully
+  let session = null
+  try {
+    session = await getServerSession(authOptions)
+  } catch (error) {
+    // If database is not available, just show public navigation
+    // This allows the site to work without a database
+    console.warn('Session check failed (database may not be configured):', error)
+  }
 
   return (
     <nav className="sticky top-0 z-50 bg-white/98 backdrop-blur-xl shadow-lg border-b-2 border-gray-100/50">
