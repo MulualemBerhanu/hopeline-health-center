@@ -3,13 +3,6 @@ import { ContactForm } from "@/components/ContactForm"
 export default function Contact() {
   return (
     <div className="py-24 md:py-32 bg-gradient-to-b from-hopeline-cream via-white to-hopeline-cream/30 min-h-screen relative overflow-hidden">
-      {/* Advanced decorative background */}
-      <div className="absolute inset-0 opacity-8">
-        <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-hopeline-teal rounded-full blur-3xl animate-pulse-slow"></div>
-        <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-hopeline-sky rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: '1s' }}></div>
-        <div className="absolute top-1/3 right-1/3 w-96 h-96 bg-hopeline-gold/20 rounded-full blur-3xl"></div>
-      </div>
-      
       <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20 animate-fade-in-up">
           <span className="inline-block px-5 py-2.5 bg-gradient-to-r from-hopeline-gold/25 to-hopeline-sky/25 text-hopeline-teal font-bold rounded-full text-sm mb-6 border border-hopeline-teal/20 shadow-soft">

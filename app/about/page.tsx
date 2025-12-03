@@ -1,13 +1,6 @@
 export default function About() {
   return (
     <div className="py-24 md:py-32 bg-gradient-to-b from-hopeline-cream via-white to-hopeline-cream/30 min-h-screen relative overflow-hidden">
-      {/* Advanced decorative background */}
-      <div className="absolute inset-0 opacity-8">
-        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-hopeline-teal rounded-full blur-3xl animate-pulse-slow"></div>
-        <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-hopeline-sky rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: '1s' }}></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-hopeline-gold/20 rounded-full blur-3xl"></div>
-      </div>
-      
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20 animate-fade-in-up">
           <span className="inline-block px-5 py-2.5 bg-gradient-to-r from-hopeline-sky/25 to-hopeline-gold/25 text-hopeline-teal font-bold rounded-full text-sm mb-6 border border-hopeline-teal/20 shadow-soft">
