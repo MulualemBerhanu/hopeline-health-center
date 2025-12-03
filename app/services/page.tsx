@@ -9,7 +9,7 @@ export default function Services() {
           <span className="inline-block px-6 py-3 bg-gradient-to-r from-hopeline-teal/20 via-hopeline-sky/15 to-hopeline-teal/20 text-hopeline-teal font-extrabold rounded-full text-sm mb-8 border-2 border-hopeline-teal/20 shadow-medium backdrop-blur-sm">
             Our Services
           </span>
-          <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-extrabold text-hopeline-teal mb-8 leading-tight tracking-tight">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-extrabold text-hopeline-teal mb-8 leading-tight tracking-tight">
             Comprehensive Therapy Services
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-semibold">

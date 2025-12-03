@@ -8,7 +8,7 @@ export default function Contact() {
           <span className="inline-block px-6 py-3 bg-gradient-to-r from-hopeline-gold/30 via-hopeline-sky/25 to-hopeline-gold/30 text-hopeline-teal font-extrabold rounded-full text-sm mb-8 border-2 border-hopeline-teal/20 shadow-medium backdrop-blur-sm">
             Get in Touch
           </span>
-          <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-extrabold text-hopeline-teal mb-8 leading-tight tracking-tight">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-extrabold text-hopeline-teal mb-8 leading-tight tracking-tight">
             Contact Us
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 max-w-2xl mx-auto leading-relaxed font-semibold">
