@@ -3,31 +3,32 @@ import Link from "next/link"
 
 export default function Services() {
   return (
-    <div className="py-24 md:py-32 bg-gradient-to-b from-hopeline-cream via-white to-hopeline-cream/30 min-h-screen relative overflow-hidden">
+    <div className="py-28 md:py-36 bg-gradient-to-b from-hopeline-cream via-white to-hopeline-cream/40 min-h-screen relative overflow-hidden">
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-20 animate-fade-in-up">
-          <span className="inline-block px-5 py-2.5 bg-gradient-to-r from-hopeline-teal/15 to-hopeline-sky/15 text-hopeline-teal font-bold rounded-full text-sm mb-6 border border-hopeline-teal/20 shadow-soft">
+        <div className="text-center mb-24 animate-fade-in-up">
+          <span className="inline-block px-6 py-3 bg-gradient-to-r from-hopeline-teal/20 via-hopeline-sky/15 to-hopeline-teal/20 text-hopeline-teal font-extrabold rounded-full text-sm mb-8 border-2 border-hopeline-teal/20 shadow-medium backdrop-blur-sm">
             Our Services
           </span>
-          <h1 className="text-6xl md:text-7xl lg:text-8xl font-extrabold text-hopeline-teal mb-8 leading-tight">
+          <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-extrabold text-hopeline-teal mb-8 leading-tight tracking-tight">
             Comprehensive Therapy Services
           </h1>
-          <p className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-medium">
+          <p className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-semibold">
             We offer a comprehensive range of outpatient therapy services designed 
-            to support your <span className="gradient-text font-bold">mental health and emotional well-being</span>.
+            to support your <span className="text-gradient-animated font-extrabold">mental health and emotional well-being</span>.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-20">
-          <div className="bg-gradient-to-br from-white via-hopeline-cream/30 to-white rounded-3xl shadow-large p-12 hover:shadow-colored transition-all duration-500 hover-lift border-2 border-gray-100 hover:border-hopeline-sky/40 group relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-40 h-40 bg-hopeline-sky/10 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+          <div className="bg-gradient-to-br from-white via-hopeline-cream/40 to-white rounded-3xl shadow-glow-lg p-12 hover:shadow-glow transition-all duration-700 hover-lift-glow border-2 border-gray-100 hover:border-hopeline-sky/50 group relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-48 h-48 bg-hopeline-sky/15 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
+            <div className="absolute bottom-0 left-0 w-32 h-32 bg-hopeline-teal/5 rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
             <div className="relative z-10">
-              <div className="bg-gradient-to-br from-hopeline-cream to-hopeline-sky/25 rounded-2xl p-6 w-fit mb-8 group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-medium">
-                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" className="w-14 h-14 text-hopeline-teal">
+              <div className="bg-gradient-to-br from-hopeline-cream via-hopeline-sky/30 to-hopeline-cream rounded-3xl p-7 w-fit mb-8 group-hover:scale-110 group-hover:rotate-3 transition-all duration-700 shadow-glow group-hover:shadow-glow-lg border border-hopeline-sky/20">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" className="w-16 h-16 text-hopeline-teal">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
               </div>
-              <h2 className="text-4xl font-extrabold text-hopeline-teal mb-6">Individual Therapy</h2>
+              <h2 className="text-4xl md:text-5xl font-extrabold text-hopeline-teal mb-6 tracking-tight">Individual Therapy</h2>
               <p className="text-gray-700 leading-relaxed mb-8 text-lg font-medium">
                 One-on-one therapy sessions tailored to your unique needs. Our therapists 
                 work with you to address a wide range of concerns including:

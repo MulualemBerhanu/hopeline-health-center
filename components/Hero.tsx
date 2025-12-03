@@ -17,6 +17,8 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-r from-hopeline-teal/45 via-hopeline-teal/40 to-hopeline-teal/35 md:from-hopeline-teal/90 md:via-hopeline-teal/80 md:to-hopeline-teal/70 z-0"></div>
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-hopeline-teal/15 md:to-hopeline-teal/50 z-0"></div>
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(163,214,212,0.08),transparent_50%)] z-0"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(245,176,76,0.1),transparent_60%)] z-0"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgba(163,214,212,0.15),transparent_60%)] z-0"></div>
       
       {/* Animated background particles */}
       <div className="absolute inset-0 overflow-hidden z-0">
@@ -42,8 +44,8 @@ export function Hero() {
 
               {/* Main Heading */}
               <h1 className="text-3xl font-extrabold mb-3 leading-tight drop-shadow-2xl animate-fade-in-up">
-                <span className="block mb-1 text-white">Trusted Mental Health</span>
-                <span className="block bg-gradient-to-r from-white via-hopeline-sky to-white bg-clip-text text-transparent">
+                <span className="block mb-1 text-white tracking-tight">Trusted Mental Health</span>
+                <span className="block bg-gradient-to-r from-white via-hopeline-sky via-hopeline-gold/80 to-white bg-clip-text text-transparent bg-[length:200%_auto] animate-gradient-shift">
                   Outpatient Center
                 </span>
               </h1>
@@ -97,9 +99,9 @@ export function Hero() {
                       Welcome to HopeLine
                     </span>
                   </div>
-                  <h1 className="text-6xl lg:text-7xl font-extrabold mb-6 leading-tight drop-shadow-2xl animate-fade-in-up">
-                    <span className="block mb-2">Trusted Mental Health</span>
-                    <span className="block bg-gradient-to-r from-white via-hopeline-sky to-white bg-clip-text text-transparent">
+                  <h1 className="text-6xl lg:text-7xl font-extrabold mb-6 leading-tight drop-shadow-2xl animate-fade-in-up tracking-tight">
+                    <span className="block mb-2 text-white">Trusted Mental Health</span>
+                    <span className="block bg-gradient-to-r from-white via-hopeline-sky via-hopeline-gold/80 to-white bg-clip-text text-transparent bg-[length:200%_auto] animate-gradient-shift">
                       Outpatient Center
                     </span>
                   </h1>
@@ -161,15 +163,16 @@ export function Hero() {
               {/* Card positioned absolutely at bottom right */}
               <div className="hidden md:block absolute bottom-0 right-0 md:w-[32%] lg:w-[28%] xl:w-[26%]">
                 <div className="relative group">
-                  <div className="absolute inset-0 bg-gradient-to-br from-hopeline-sky/20 to-hopeline-gold/20 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
-                  <div className="relative bg-white/20 backdrop-blur-xl rounded-3xl p-12 border-2 border-white/40 shadow-2xl hover:bg-white/25 transition-all duration-500">
-                    <div className="text-center">
-                      <div className="inline-flex items-center justify-center w-24 h-24 bg-gradient-to-br from-white/30 to-white/10 rounded-2xl mb-8 shadow-lg group-hover:scale-110 transition-transform duration-500">
-                        <svg className="w-12 h-12 text-white drop-shadow-lg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  <div className="absolute inset-0 bg-gradient-to-br from-hopeline-sky/30 via-hopeline-gold/20 to-hopeline-teal/20 rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-700 animate-glow"></div>
+                  <div className="relative bg-gradient-to-br from-white/25 via-white/20 to-white/15 backdrop-blur-2xl rounded-3xl p-12 border-2 border-white/50 shadow-glow-lg hover:bg-white/30 hover:border-white/70 transition-all duration-700 hover:scale-[1.02]">
+                    <div className="absolute inset-0 bg-gradient-to-br from-transparent via-white/5 to-transparent rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
+                    <div className="text-center relative z-10">
+                      <div className="inline-flex items-center justify-center w-28 h-28 bg-gradient-to-br from-hopeline-gold/40 via-hopeline-sky/30 to-white/20 rounded-3xl mb-8 shadow-glow group-hover:scale-110 group-hover:rotate-3 transition-all duration-700 border border-white/30">
+                        <svg className="w-14 h-14 text-white drop-shadow-2xl" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
                         </svg>
                       </div>
-                      <p className="text-white text-3xl font-extrabold mb-4 drop-shadow-lg">Your Path to Healing</p>
+                      <p className="text-white text-3xl font-extrabold mb-4 drop-shadow-2xl tracking-tight">Your Path to Healing</p>
                       <p className="text-white/95 text-lg leading-relaxed font-medium">
                         Every journey begins with a single step. We&apos;re here to support you every step of the way.
                       </p>
