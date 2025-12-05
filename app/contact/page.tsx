@@ -27,8 +27,8 @@ export default function Contact() {
                 </svg>
               </div>
               <h3 className="text-2xl font-extrabold text-hopeline-teal mb-4 tracking-tight">Phone</h3>
-              <a href="tel:5551234567" className="text-gray-800 hover:text-hopeline-teal font-extrabold text-xl transition-all group/link">
-                <span className="group-hover/link:underline decoration-2">(555) 123-4567</span>
+              <a href="tel:+15038823008" className="text-gray-800 hover:text-hopeline-teal font-extrabold text-xl transition-all group/link">
+                <span className="group-hover/link:underline decoration-2">+1 (503) 882-3008</span>
               </a>
             </div>
           </div>
@@ -43,8 +43,8 @@ export default function Contact() {
                 </svg>
               </div>
               <h3 className="text-2xl font-extrabold text-hopeline-teal mb-4 tracking-tight">Email</h3>
-              <a href="mailto:info@hopelinehealth.com" className="text-gray-800 hover:text-hopeline-teal font-extrabold text-xl transition-all group/link">
-                <span className="group-hover/link:underline decoration-2">info@hopelinehealth.com</span>
+              <a href="mailto:hopelineclinic@gmail.com" className="text-gray-800 hover:text-hopeline-teal font-extrabold text-xl transition-all group/link">
+                <span className="group-hover/link:underline decoration-2">hopelineclinic@gmail.com</span>
               </a>
             </div>
           </div>
