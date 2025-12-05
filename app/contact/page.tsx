@@ -16,7 +16,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           <div className="group bg-gradient-to-br from-white via-hopeline-cream/40 to-white rounded-3xl shadow-glow-lg p-10 border-2 border-gray-100 hover:border-hopeline-teal/50 hover:shadow-glow transition-all duration-700 hover-lift-glow relative overflow-hidden">
             <div className="absolute top-0 right-0 w-40 h-40 bg-hopeline-teal/15 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
             <div className="absolute bottom-0 left-0 w-32 h-32 bg-hopeline-sky/5 rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
@@ -55,6 +55,26 @@ export default function Contact() {
             <div className="relative z-10">
               <div className="bg-gradient-to-br from-hopeline-gold via-hopeline-gold/90 to-hopeline-gold/80 rounded-3xl p-6 w-fit mb-8 group-hover:scale-110 group-hover:rotate-3 transition-all duration-700 shadow-glow group-hover:shadow-glow-lg border border-hopeline-gold/30">
                 <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-extrabold text-hopeline-teal mb-4 tracking-tight">Address</h3>
+              <a href="https://maps.google.com/?q=2410+SE+121st+Ave+Ste+222+Portland+OR+97216" target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:text-hopeline-teal font-extrabold text-lg transition-all group/link">
+                <p className="group-hover/link:underline decoration-2 leading-relaxed">
+                  2410 SE 121st Ave, Ste 222<br />
+                  Portland, OR 97216
+                </p>
+              </a>
+            </div>
+          </div>
+          
+          <div className="group bg-gradient-to-br from-white via-hopeline-cream/40 to-white rounded-3xl shadow-glow-lg p-10 border-2 border-gray-100 hover:border-hopeline-sky/50 hover:shadow-glow transition-all duration-700 hover-lift-glow relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-40 h-40 bg-hopeline-sky/15 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
+            <div className="absolute bottom-0 left-0 w-32 h-32 bg-hopeline-teal/5 rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
+            <div className="relative z-10">
+              <div className="bg-gradient-to-br from-hopeline-sky via-hopeline-sky/90 to-hopeline-sky/80 rounded-3xl p-6 w-fit mb-8 group-hover:scale-110 group-hover:rotate-3 transition-all duration-700 shadow-glow group-hover:shadow-glow-lg border border-hopeline-sky/30">
+                <svg className="w-12 h-12 text-hopeline-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
