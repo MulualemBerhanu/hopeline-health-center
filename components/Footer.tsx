@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export function Footer() {
   return (
@@ -13,10 +14,15 @@ export function Footer() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           <div className="md:col-span-2">
-            <h3 className="text-3xl font-extrabold mb-6 flex items-center gap-3">
-              <span className="bg-gradient-to-br from-hopeline-gold to-hopeline-gold/80 text-hopeline-teal px-4 py-2 rounded-xl text-xl shadow-lg">H</span>
-              <span className="bg-gradient-to-r from-white to-hopeline-sky bg-clip-text text-transparent">HopeLine Health Center</span>
-            </h3>
+            <div className="mb-6">
+              <Image
+                src="/images/logo_HLHC.JPEG"
+                alt="HopeLine Health Center"
+                width={240}
+                height={80}
+                className="h-12 w-auto object-contain"
+              />
+            </div>
             <p className="text-hopeline-sky/95 text-lg leading-relaxed mb-8 max-w-md font-medium">
               Providing compassionate outpatient therapy services for your emotional well-being. 
               Your journey to healing starts here.

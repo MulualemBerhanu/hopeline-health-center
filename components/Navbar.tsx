@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { getServerSession } from 'next-auth'
 import { authOptions } from '@/lib/auth'
 import { SignOutButton } from './SignOutButton'
@@ -23,15 +24,16 @@ export async function Navbar() {
           <div className="flex justify-between items-center h-16">
             <Link 
               href="/" 
-              className="flex items-center gap-2 group"
+              className="flex items-center group"
             >
-              <div className="w-10 h-10 bg-gradient-to-br from-hopeline-teal to-hopeline-teal/80 rounded-xl flex items-center justify-center shadow-md group-hover:shadow-lg transition-all duration-300">
-                <span className="text-white font-extrabold text-lg">H</span>
-              </div>
-              <div className="flex flex-col">
-                <span className="text-hopeline-teal font-extrabold text-base leading-tight">HopeLine</span>
-                <span className="text-hopeline-teal/60 font-semibold text-xs leading-tight">Health Center</span>
-              </div>
+              <Image
+                src="/images/logo_HLHC.JPEG"
+                alt="HopeLine Health Center"
+                width={180}
+                height={60}
+                className="h-10 w-auto object-contain group-hover:opacity-90 transition-opacity duration-300"
+                priority
+              />
             </Link>
             <MobileMenu session={session} />
           </div>
@@ -45,13 +47,16 @@ export async function Navbar() {
             <div className="flex items-center">
               <Link 
                 href="/" 
-                className="text-3xl lg:text-4xl font-extrabold text-hopeline-teal hover:opacity-90 transition-all duration-300 flex items-center gap-3 group"
+                className="flex items-center group"
               >
-                <span className="relative">
-                  <span className="absolute inset-0 bg-gradient-to-r from-hopeline-sky/30 to-hopeline-gold/20 opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-500"></span>
-                  <span className="relative bg-gradient-to-r from-hopeline-teal to-hopeline-teal/80 bg-clip-text text-transparent">HopeLine</span>
-                </span>
-                <span className="text-hopeline-teal/70 font-semibold text-lg">Health Center</span>
+                <Image
+                  src="/images/logo_HLHC.JPEG"
+                  alt="HopeLine Health Center"
+                  width={240}
+                  height={80}
+                  className="h-16 lg:h-20 w-auto object-contain group-hover:opacity-90 transition-opacity duration-300"
+                  priority
+                />
               </Link>
             </div>
           <div className="hidden md:flex items-center space-x-2">
