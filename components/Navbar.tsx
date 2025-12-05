@@ -27,7 +27,7 @@ export async function Navbar() {
               className="flex items-center group"
             >
               <Image
-                src="/images/logo_HLHC.png"
+                src="/images/logo.png"
                 alt="HopeLine Health Center"
                 width={180}
                 height={60}
@@ -50,7 +50,7 @@ export async function Navbar() {
                 className="flex items-center group"
               >
                 <Image
-                  src="/images/logo_HLHC.png"
+                  src="/images/logo.png"
                   alt="HopeLine Health Center"
                   width={240}
                   height={80}
