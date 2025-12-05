@@ -16,7 +16,7 @@ export function Footer() {
           <div className="md:col-span-2">
             <div className="mb-6">
               <Image
-                src="/images/logo_HLHC.jpg"
+                src="/images/logo_HLHC.png"
                 alt="HopeLine Health Center"
                 width={240}
                 height={80}
