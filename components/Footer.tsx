@@ -38,7 +38,7 @@ export function Footer() {
                 <span className="font-bold text-lg">+1 (503) 882-3008</span>
               </a>
               <a 
-                href="https://maps.google.com/?q=2410+SE+121st+Ave+Ste+222+Portland+OR+97216" 
+                href="https://maps.google.com/?q=10011+SE+Division+St+%23309+Portland+OR+97266" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="group flex items-start gap-3 px-6 py-3 bg-white/15 hover:bg-white/25 rounded-xl transition-all duration-300 backdrop-blur-md border border-white/20 hover:border-white/40 hover:scale-105"
@@ -48,8 +48,8 @@ export function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
                 <span className="font-semibold text-base leading-relaxed">
-                  2410 SE 121st Ave, Ste 222<br />
-                  Portland, OR 97216
+                  10011 SE Division St #309<br />
+                  Portland, OR 97266
                 </span>
               </a>
             </div>

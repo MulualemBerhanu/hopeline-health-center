@@ -86,10 +86,10 @@ export default function Contact() {
                 </div>
                 <div className="flex-1 min-w-0">
                   <h3 className="text-xl font-extrabold text-hopeline-teal mb-3 tracking-tight">Address</h3>
-                  <a href="https://maps.google.com/?q=2410+SE+121st+Ave+Ste+222+Portland+OR+97216" target="_blank" rel="noopener noreferrer" className="block text-gray-800 hover:text-hopeline-teal transition-colors group/link">
+                  <a href="https://maps.google.com/?q=10011+SE+Division+St+%23309+Portland+OR+97266" target="_blank" rel="noopener noreferrer" className="block text-gray-800 hover:text-hopeline-teal transition-colors group/link">
                     <div className="font-extrabold text-base md:text-lg leading-relaxed">
-                      <p className="group-hover/link:underline decoration-2 decoration-hopeline-teal">2410 SE 121st Ave, Ste 222</p>
-                      <p className="group-hover/link:underline decoration-2 decoration-hopeline-teal">Portland, OR 97216</p>
+                      <p className="group-hover/link:underline decoration-2 decoration-hopeline-teal">10011 SE Division St #309</p>
+                      <p className="group-hover/link:underline decoration-2 decoration-hopeline-teal">Portland, OR 97266</p>
                     </div>
                   </a>
                 </div>
